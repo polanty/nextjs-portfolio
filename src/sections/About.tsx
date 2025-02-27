@@ -1,5 +1,5 @@
-import Image from "next/image";
-import Link from "next/link";
+// import Image from "next/image";
+// import Link from "next/link";
 import React, { useEffect, useRef } from "react";
 import { useInView, motion } from "framer-motion";
 
@@ -28,12 +28,11 @@ function About() {
       <div className="about-grid">
         <div className="about-grid-info">
           <p className="about-grid-info-text">
-            Bonjour! My name is Kishan, and I am passionate about creating
-            digital content for the web. My interest in web development was
-            sparked in 2016 when I created my first project called Lavish, a
-            social media app built using React and Node.js.
+            Hello! My name is Abiola, and and I am passionate about creating
+            great user experience, be it as a website or creating cloud based
+            solution for Businesses. I am a great collaborator and communicator.
           </p>
-          <p className="about-grid-info-text">
+          {/* <p className="about-grid-info-text">
             Fast-forward to today, I specialize in designing and developing
             high-quality solutions that delight our clients and exceed their
             expectations at{" "}
@@ -46,8 +45,8 @@ function About() {
             Additionally, I share my knowledge and passion with the world
             through my YouTube channel, where I demonstrate how to build
             full-stack applications.
-          </p>
-          <p className="about-grid-info-text">
+          </p> */}
+          {/* <p className="about-grid-info-text">
             I am also working on a new project called&nbsp;
             <Link
               className="link"
@@ -57,7 +56,7 @@ function About() {
               FrontendVita,
             </Link>
             &nbsp;aimed at enhancing frontend development skills.
-          </p>
+          </p> */}
           <p className="about-grid-info-text">
             Here are a few technologies I’ve been working with recently:
           </p>
@@ -69,17 +68,17 @@ function About() {
             <li className="about-grid-info-list-item">Redux Toolkit</li>
             <li className="about-grid-info-list-item">Node.js</li>
             <li className="about-grid-info-list-item">Elasticsearch</li>
-            <li className="about-grid-info-list-item">Kibana</li>
+            <li className="about-grid-info-list-item">Java</li>
             <li className="about-grid-info-list-item">CSS</li>
           </ul>
         </div>
-        <div className="about-grid-photo">
+        {/* <div className="about-grid-photo">
           <div className="overlay"></div>
           <div className="overlay-border"></div>
           <div className="about-grid-photo-container">
             <Image src="/kishan.jpeg" alt="profile" fill />
           </div>
-        </div>
+        </div> */}
       </div>
     </motion.div>
   );

@@ -25,12 +25,14 @@ function Footer() {
   return (
     <footer>
       <Link
-        href="https://github.com/koolkishan/chat-app-react-nodejs"
+        href="https://github.com/polanty"
         target="_blank"
         className="footer-link"
       >
-        <span className="footer-info">Designed and Built by Kishan Sheth.</span>
-        {githubInfo && (
+        <span className="footer-info">
+          Tijaniabiola1599@gmail.com || polanty
+        </span>
+        {/* {githubInfo && (
           <div className="footer-git">
             <div className="footer-git-item">
               <FaRegStar className="footer-git-item-icon" />
@@ -41,7 +43,7 @@ function Footer() {
               <span className="footer-git-item-text">{githubInfo.forks}</span>
             </div>
           </div>
-        )}
+        )} */}
       </Link>
     </footer>
   );

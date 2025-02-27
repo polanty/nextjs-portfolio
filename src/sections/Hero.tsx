@@ -27,7 +27,7 @@ function Hero() {
           delay: 0.75,
         }}
       >
-        Kishan Sheth.
+        Abiola Tijani.
       </motion.h2>
       <motion.h3
         className="hero-title-large hero-title-sub"
@@ -39,7 +39,7 @@ function Hero() {
           delay: 1.05,
         }}
       >
-        I craft things for the web.
+        I am a Software developer.
       </motion.h3>
       <motion.p
         className="hero-text"
@@ -51,12 +51,8 @@ function Hero() {
           delay: 1.35,
         }}
       >
-        I&apos;m a software engineer with expertise in creating top-notch
-        digital experiences. My current focus is on developing products that are
-        accessible and centered around user needs, as part of the team at&nbsp;
-        <Link href="https://rapidops.com" target="_blank" className="link">
-          Rapidops.
-        </Link>
+        I have expertise in building user friendly websites, focused on creating
+        digital and immersive experiences.
       </motion.p>
       <motion.div
         className="hero-button"
@@ -69,8 +65,8 @@ function Hero() {
         }}
       >
         <Button
-          text="Check out my course"
-          link="https://youtube.com/kishansheth21"
+          text="Check out my projects"
+          link="https://github.com/polanty"
         />
       </motion.div>
     </div>

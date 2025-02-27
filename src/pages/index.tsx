@@ -23,8 +23,8 @@ function Index() {
   return (
     <div className="app">
       <Head>
-        <title>Kishan Sheth</title>
-        <link rel="shortcut icon" href="/favicon.ico" />
+        <title>Abiola Tijani</title>
+        <link rel="shortcut icon" href="/icons8-t-64.png" />
       </Head>
       {showContent && (
         <>
