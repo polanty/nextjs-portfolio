@@ -7,60 +7,39 @@ import { motion } from "framer-motion";
 function Projects() {
   const projectsData = [
     {
-      image: "/project1.png",
-      projectName: "Pokedex",
-      projectLink: "https://netlify.com",
+      image: "/jdSports.jpg",
+      projectName: "JD-Sports Clone",
+      projectLink: "https://jdsportsreplica-ecommerce.netlify.app/",
       projectDescription:
-        "This is a web application that uses the PokeAPI to display information about different Pokemon, including their evolution levels and details. You can compare multiple Pokemon using a queue, and add them to your personal list using Firebase's Firestore database.",
-      projectTech: [
-        "React",
-        "Redux Toolkit",
-        "SCSS",
-        "Firebase",
-        "Typescript",
-        "PokeApi",
-      ],
+        "A fully responsive e-commerce website inspired by JD Sports, designed to provide a seamless online shopping experience. This project features dynamic product listings, user authentication, and a shopping cart system. Built with React, Redux, and Firebase, it incorporates modern UI/UX principles to ensure a smooth user journey. The application includes secure payment integration, product filtering, and a wishlist feature, offering a real-world e-commerce experience.",
+      projectTech: ["React", "Context Api", "Firebase", "Typescript", "Stripe"],
       projectExternalLinks: {
-        github: "",
-        externalLink: "",
+        github: "https://github.com/polanty/jDsportsClone",
+        externalLink: "https://jdsportsreplica-ecommerce.netlify.app/",
       },
     },
     {
-      image: "/project2.png",
-      projectName: "Realtime Chat App",
-      projectLink: "https://netlify.com",
+      image: "/Github_Lookup.jpg",
+      projectName: "GitHub Profile Finder",
+      projectLink: "https://polanty-githubprofilelookup.netlify.app/",
       projectDescription:
-        "This is a chat app made with React and Node.js that sends real-time messages and is highly scalable. It uses advanced JavaScript concepts like debouncing and is optimized for React. It has 300+ stars on GitHub and over 180k views on YouTube.",
-      projectTech: [
-        "React",
-        "Sockets",
-        "Node.js",
-        "Express",
-        "MongoDB",
-        "Styled Components",
-      ],
+        "A GitHub Profile Finder built using Object-Oriented Programming (OOP) principles and the GitHub API to fetch and display user profiles dynamically. This project demonstrates clean architecture, modular design, and API integration, allowing users to search GitHub usernames and view their repositories, followers, and contributions. The UI is intuitive and minimalistic, providing a smooth user experience.",
+      projectTech: ["Javascript (ES6+)", "OOP", "Fetch API", "Bootstrap"],
       projectExternalLinks: {
-        github: "",
-        externalLink: "",
+        github: "https://github.com/polanty/GithubProfileFinder",
+        externalLink: "https://polanty-githubprofilelookup.netlify.app/",
       },
     },
     {
-      image: "/project3.png",
-      projectName: "Netflix App",
-      projectLink: "https://netlify.com",
+      image: "/natours.jpg",
+      projectName: "Beautiful Travel Agency Website",
+      projectLink: "https://natours-adaptation.vercel.app/",
       projectDescription:
-        "I made a Netflix copy with TMBD Api. It has infinite scrolling and lets you watch movies by genre. You can also add movies to your favorites list.",
-      projectTech: [
-        "React",
-        "Node.js",
-        "Firebase",
-        "MongoDB",
-        "Express",
-        "Redux Toolkit",
-      ],
+        "A visually appealing travel agency website designed with Sass for modular, maintainable, and scalable CSS. The website showcases breathtaking travel destinations, detailed tour packages, and customer testimonials with an elegant and engaging layout. It follows modern web design trends, featuring smooth animations, parallax effects, and a fully responsive design.",
+      projectTech: ["HTML", "CSS", "Sass (SCSS)", "Animations"],
       projectExternalLinks: {
-        github: "",
-        externalLink: "",
+        github: "https://github.com/polanty/Natours",
+        externalLink: "https://natours-adaptation.vercel.app/",
       },
     },
   ];
@@ -126,6 +105,7 @@ function Projects() {
                       <Link
                         href={projectExternalLinks.github}
                         className="project-info-links-item-link"
+                        target="_blank"
                       >
                         <FiGithub />
                       </Link>
@@ -134,6 +114,7 @@ function Projects() {
                       <Link
                         href={projectExternalLinks.externalLink}
                         className="project-info-links-item-link"
+                        target="_blank"
                       >
                         <FiExternalLink />
                       </Link>
