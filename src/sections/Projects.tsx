@@ -7,7 +7,7 @@ import { motion } from "framer-motion";
 function Projects() {
   const projectsData = [
     {
-      image: "/jdSports.jpg",
+      image: "/jdsportsreplica.png",
       projectName: "JD-Sports Clone",
       projectLink: "https://jdsportsreplica-ecommerce.netlify.app/",
       projectDescription:
@@ -19,7 +19,7 @@ function Projects() {
       },
     },
     {
-      image: "/Github_Lookup.jpg",
+      image: "/github.png",
       projectName: "GitHub Profile Finder",
       projectLink: "https://polanty-githubprofilelookup.netlify.app/",
       projectDescription:
@@ -31,7 +31,7 @@ function Projects() {
       },
     },
     {
-      image: "/natours.jpg",
+      image: "/Travelagency.png",
       projectName: "Beautiful Travel Agency Website",
       projectLink: "https://natours-adaptation.vercel.app/",
       projectDescription:
