@@ -24,7 +24,11 @@ function Index() {
     <div className="app">
       <Head>
         <title>Abiola Tijani</title>
-        <link rel="shortcut icon" href="/icons8-t-64.png" />
+        <link
+          rel="shortcut icon"
+          href="/icons8-t-64.png?v=2"
+          type="image/png"
+        />
       </Head>
       {showContent && (
         <>
