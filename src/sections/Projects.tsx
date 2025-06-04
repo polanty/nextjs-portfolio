@@ -19,27 +19,23 @@ function Projects() {
       },
     },
     {
-      image: "/github.png",
-      projectName: "GitHub Profile Finder",
-      projectLink: "https://polanty-githubprofilelookup.netlify.app/",
+      image: "/Iphone-screenshot.jpg",
+      projectName: "Apple Website",
+      projectLink: "https://apple-by-polanty.vercel.app/",
       projectDescription:
         "A GitHub Profile Finder built using Object-Oriented Programming (OOP) principles and the GitHub API to fetch and display user profiles dynamically. This project demonstrates clean architecture, modular design, and API integration, allowing users to search GitHub usernames and view their repositories, followers, and contributions. The UI is intuitive and minimalistic, providing a smooth user experience.",
-      projectTech: ["Javascript (ES6+)", "OOP", "Fetch API", "Bootstrap"],
+      projectTech: [
+        "Tailwind CSS",
+        "React.js",
+        "Three.js",
+        "React Three Fiber",
+        "React Three Drei",
+        "GSAP",
+        "Vite",
+      ],
       projectExternalLinks: {
-        github: "https://github.com/polanty/GithubProfileFinder",
-        externalLink: "https://polanty-githubprofilelookup.netlify.app/",
-      },
-    },
-    {
-      image: "/Travelagency.png",
-      projectName: "Beautiful Travel Agency Website",
-      projectLink: "https://natours-adaptation.vercel.app/",
-      projectDescription:
-        "A visually appealing travel agency website designed with Sass for modular, maintainable, and scalable CSS. The website showcases breathtaking travel destinations, detailed tour packages, and customer testimonials with an elegant and engaging layout. It follows modern web design trends, featuring smooth animations, parallax effects, and a fully responsive design.",
-      projectTech: ["HTML", "CSS", "Sass (SCSS)", "Animations"],
-      projectExternalLinks: {
-        github: "https://github.com/polanty/Natours",
-        externalLink: "https://natours-adaptation.vercel.app/",
+        github: "https://github.com/polanty/Apple",
+        externalLink: "https://apple-by-polanty.vercel.app/",
       },
     },
   ];

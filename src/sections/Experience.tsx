@@ -14,18 +14,6 @@ function Experience() {
 
   const expereinces = [
     {
-      name: "HMRC",
-      role: "Compliance officer",
-      url: "https://www.gov.uk/",
-      start: "September 2024",
-      end: "Present",
-      shortDescription: [
-        "Investigated tax cases, analyzed financial data, and identified discrepancies, similar to debugging and analyzing data in software development.",
-        "Ensured adherence to tax laws and streamlined compliance processes, aligning with the structured and rule-based logic in coding and software security.",
-        "Balanced multiple cases, assessed risks, and made informed decisions—skills essential in software debugging, system architecture, and efficient coding practices.",
-      ],
-    },
-    {
       name: "Developer",
       role: "React Developer",
       url: "https://github.com/polanty",
