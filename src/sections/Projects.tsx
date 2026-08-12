@@ -8,34 +8,33 @@ function Projects() {
   const projectsData = [
     {
       image: "/jdsportsreplica.png",
-      projectName: "JD-Sports Clone",
-      projectLink: "https://jdsportsreplica-ecommerce.netlify.app/",
+      projectName: "Apparels Web app based on JD Sports",
+      projectLink: "https://j-dsports-clone.vercel.app/",
       projectDescription:
         "A fully responsive e-commerce website inspired by JD Sports, designed to provide a seamless online shopping experience. This project features dynamic product listings, user authentication, and a shopping cart system. Built with React, Redux, and Firebase, it incorporates modern UI/UX principles to ensure a smooth user journey. The application includes secure payment integration, product filtering, and a wishlist feature, offering a real-world e-commerce experience.",
       projectTech: ["React", "Context Api", "Firebase", "Typescript", "Stripe"],
       projectExternalLinks: {
         github: "https://github.com/polanty/jDsportsClone",
-        externalLink: "https://jdsportsreplica-ecommerce.netlify.app/",
+        externalLink: "https://j-dsports-clone.vercel.app/",
       },
     },
     {
-      image: "/Iphone-screenshot.jpg",
-      projectName: "Apple Website",
-      projectLink: "https://apple-by-polanty.vercel.app/",
+      image: "/EgoBank.PNG",
+      projectName: "EgoBank",
+      projectLink: "https://my-bank-app-pi.vercel.app/",
       projectDescription:
-        "A GitHub Profile Finder built using Object-Oriented Programming (OOP) principles and the GitHub API to fetch and display user profiles dynamically. This project demonstrates clean architecture, modular design, and API integration, allowing users to search GitHub usernames and view their repositories, followers, and contributions. The UI is intuitive and minimalistic, providing a smooth user experience.",
+        "A modern banking web app designed with a focus on user experience and security. This project showcases a clean, responsive design with intuitive navigation and robust functionality. Built with React and TypeScript, it incorporates best practices for performance and maintainability. The site includes features like account management, transaction history, and secure login.",
       projectTech: [
-        "Tailwind CSS",
+        "Next.js 14+",
         "React.js",
-        "Three.js",
-        "React Three Fiber",
-        "React Three Drei",
-        "GSAP",
-        "Vite",
+        "Redux Toolkit",
+        "RTK Query",
+        "Tailwind CSS",
+        "Firebase",
       ],
       projectExternalLinks: {
-        github: "https://github.com/polanty/Apple",
-        externalLink: "https://apple-by-polanty.vercel.app/",
+        github: "https://github.com/polanty/My-Bank-App",
+        externalLink: "https://my-bank-app-pi.vercel.app/",
       },
     },
   ];
@@ -119,7 +118,7 @@ function Projects() {
                 </div>
               </motion.div>
             );
-          }
+          },
         )}
       </div>
     </div>
