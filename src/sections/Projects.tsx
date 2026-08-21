@@ -7,6 +7,18 @@ import { motion } from "framer-motion";
 function Projects() {
   const projectsData = [
     {
+      image: "/jdsportsreplica.png",
+      projectName: "Apparels Web app based on JD Sports",
+      projectLink: "https://j-dsports-clone.vercel.app/",
+      projectDescription:
+        "A fully responsive e-commerce website inspired by JD Sports, designed to provide a seamless online shopping experience. This project features dynamic product listings, user authentication, and a shopping cart system. Built with React, Redux, and Firebase, it incorporates modern UI/UX principles to ensure a smooth user journey. The application includes secure payment integration, product filtering, and a wishlist feature, offering a real-world e-commerce experience.",
+      projectTech: ["React", "Context Api", "Firebase", "Typescript", "Stripe"],
+      projectExternalLinks: {
+        github: "https://github.com/polanty/jDsportsClone",
+        externalLink: "https://j-dsports-clone.vercel.app/",
+      },
+    },
+    {
       image: "/prepwise.png",
       projectName: "Prepwise",
       projectLink: "https://www.prepwise.live/",
@@ -52,7 +64,7 @@ function Projects() {
       },
     },
     {
-      image: "/EgoBank.png",
+      image: "/Egobank.png",
       projectName: "Ego Bank",
       projectLink: "https://www.egobank.dev/",
       projectDescription:
