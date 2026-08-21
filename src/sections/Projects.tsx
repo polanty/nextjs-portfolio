@@ -33,7 +33,7 @@ function Projects() {
         "jsonwebtoken",
       ],
       projectExternalLinks: {
-        github: "https://github.com/polanty/Prepwise",
+        github: "https://github.com/collabsprint/prepwise",
         externalLink: "https://www.prepwise.live/",
       },
     },
