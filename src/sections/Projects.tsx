@@ -7,34 +7,25 @@ import { motion } from "framer-motion";
 function Projects() {
   const projectsData = [
     {
-      image: "/jdsportsreplica.png",
-      projectName: "Apparels Web app based on JD Sports",
-      projectLink: "https://j-dsports-clone.vercel.app/",
+      image: "/Egobank.png",
+      projectName: "Ego Bank",
+      projectLink: "https://www.egobank.dev/",
       projectDescription:
-        "A fully responsive e-commerce website inspired by JD Sports, designed to provide a seamless online shopping experience. This project features dynamic product listings, user authentication, and a shopping cart system. Built with React, Redux, and Firebase, it incorporates modern UI/UX principles to ensure a smooth user journey. The application includes secure payment integration, product filtering, and a wishlist feature, offering a real-world e-commerce experience.",
-      projectTech: ["React", "Context Api", "Firebase", "Typescript", "Stripe"],
-      projectExternalLinks: {
-        github: "https://github.com/polanty/jDsportsClone",
-        externalLink: "https://j-dsports-clone.vercel.app/",
-      },
-    },
-    {
-      image: "/prepwise.png",
-      projectName: "Prepwise",
-      projectLink: "https://www.prepwise.live/",
-      projectDescription:
-        "PrepWise is an intelligent interview preparation platform that helps job seekers practice and improve their interview skills through AI-driven coaching, real-time speech analysis, and realistic mock interview simulations with a video avatar interviewer.",
+        "A TypeScript Next.js App Router web application that implements a small, fully functional demo bank (user sign-up/sign-in, user profiles, personal/business pages, and money transfers). It’s a frontend-first full-stack demo that uses Firebase for auth/back-end integration and Redux Toolkit (RTK Query) to model API/transfer flows — intended for developers or as a demo product for end users.",
       projectTech: [
-        "Tailwind CSS",
-        "Next.js",
-        "Open AI API",
-        "Smile API",
-        "ai",
-        "jsonwebtoken",
+        "Redux Toolkit",
+        "bootstrap",
+        "firebase",
+        "jspdf",
+        "pdf-lib",
+        "zod",
+        "next",
+        "GSAP",
+        "React-redux",
       ],
       projectExternalLinks: {
-        github: "https://github.com/collabsprint/prepwise",
-        externalLink: "https://www.prepwise.live/",
+        github: "https://github.com/polanty/My-Bank-App",
+        externalLink: "https://www.egobank.dev/",
       },
     },
     {
@@ -64,25 +55,34 @@ function Projects() {
       },
     },
     {
-      image: "/Egobank.png",
-      projectName: "Ego Bank",
-      projectLink: "https://www.egobank.dev/",
+      image: "/jdsportsreplica.png",
+      projectName: "Apparels Web app based on JD Sports",
+      projectLink: "https://j-dsports-clone.vercel.app/",
       projectDescription:
-        "A TypeScript Next.js App Router web application that implements a small, fully functional demo bank (user sign-up/sign-in, user profiles, personal/business pages, and money transfers). It’s a frontend-first full-stack demo that uses Firebase for auth/back-end integration and Redux Toolkit (RTK Query) to model API/transfer flows — intended for developers or as a demo product for end users.",
+        "A fully responsive e-commerce website inspired by JD Sports, designed to provide a seamless online shopping experience. This project features dynamic product listings, user authentication, and a shopping cart system. Built with React, Redux, and Firebase, it incorporates modern UI/UX principles to ensure a smooth user journey. The application includes secure payment integration, product filtering, and a wishlist feature, offering a real-world e-commerce experience.",
+      projectTech: ["React", "Context Api", "Firebase", "Typescript", "Stripe"],
+      projectExternalLinks: {
+        github: "https://github.com/polanty/jDsportsClone",
+        externalLink: "https://j-dsports-clone.vercel.app/",
+      },
+    },
+    {
+      image: "/prepwise.png",
+      projectName: "Prepwise",
+      projectLink: "https://www.prepwise.live/",
+      projectDescription:
+        "PrepWise is an intelligent interview preparation platform that helps job seekers practice and improve their interview skills through AI-driven coaching, real-time speech analysis, and realistic mock interview simulations with a video avatar interviewer.",
       projectTech: [
-        "Redux Toolkit",
-        "bootstrap",
-        "firebase",
-        "jspdf",
-        "pdf-lib",
-        "zod",
-        "next",
-        "GSAP",
-        "React-redux",
+        "Tailwind CSS",
+        "Next.js",
+        "Open AI API",
+        "Smile API",
+        "ai",
+        "jsonwebtoken",
       ],
       projectExternalLinks: {
-        github: "https://github.com/polanty/My-Bank-App",
-        externalLink: "https://www.egobank.dev/",
+        github: "https://github.com/collabsprint/prepwise",
+        externalLink: "https://www.prepwise.live/",
       },
     },
   ];
